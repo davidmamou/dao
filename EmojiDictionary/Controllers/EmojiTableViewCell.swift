@@ -9,7 +9,10 @@
 import UIKit
 
 class EmojiTableViewCell: UITableViewCell {
-
+    @IBOutlet weak var symbol: UIStackView!
+    @IBOutlet weak var namelabel: UILabel!
+    @IBOutlet weak var descriptionlabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

@@ -61,6 +61,11 @@
                                         <constraint firstItem="B2p-EB-fhs" firstAttribute="leading" secondItem="nv7-Ct-FiO" secondAttribute="leading" id="wnP-rn-Sk2"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="descriptionlabel" destination="uJN-tW-8iV" id="49L-IN-87N"/>
+                                    <outlet property="namelabel" destination="ReB-Jj-qc9" id="2BN-VK-lhD"/>
+                                    <outlet property="symbol" destination="B2p-EB-fhs" id="w3V-kb-dOa"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
