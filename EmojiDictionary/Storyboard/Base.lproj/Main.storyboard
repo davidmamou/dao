@@ -62,9 +62,9 @@
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <outlet property="descriptionlabel" destination="uJN-tW-8iV" id="49L-IN-87N"/>
-                                    <outlet property="namelabel" destination="ReB-Jj-qc9" id="2BN-VK-lhD"/>
-                                    <outlet property="symbol" destination="B2p-EB-fhs" id="w3V-kb-dOa"/>
+                                    <outlet property="descriptionLbl" destination="uJN-tW-8iV" id="GZs-Uw-2du"/>
+                                    <outlet property="nameLbl" destination="ReB-Jj-qc9" id="pdc-xh-AMN"/>
+                                    <outlet property="symbolLbl" destination="Kcj-Th-R4i" id="1J4-8u-fyF"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>

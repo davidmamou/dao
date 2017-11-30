@@ -9,10 +9,20 @@
 import UIKit
 
 class EmojiTableViewCell: UITableViewCell {
-    @IBOutlet weak var symbol: UIStackView!
-    @IBOutlet weak var namelabel: UILabel!
-    @IBOutlet weak var descriptionlabel: UILabel!
+  
+    @IBOutlet weak var symbolLbl: UILabel!
+    @IBOutlet weak var nameLbl: UILabel!
+    @IBOutlet weak var descriptionLbl: UILabel!
     
+    
+    
+    func update(with emoji: Emoji)
+    {
+     symbolLbl.text = emoji.symbol
+     nameLbl.text = emoji.name
+     descriptionLbl.text = emoji.description
+        
+    }
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
